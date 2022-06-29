@@ -43,6 +43,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .hero span {
@@ -74,7 +75,7 @@ header {
     width: 80px;
     border-style: solid;
     border-color: blue;
-    margin: 0 auto 14 auto;
+    margin: 0 auto 14px auto;
 }
 .features h3
 {
@@ -90,6 +91,7 @@ header {
     background: #ffffff;
     padding: 8px;
     border-radius: 10px;
+    margin-top: 24px;
 }
 
 input[type="submit"] {
@@ -114,7 +116,12 @@ input[type="text"] {
     border: none;
     width: 250px;
     height: 24px;
-    padding-left: 40px;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+
+input[type="text"]:focus {
+    outline: none;
 }
 
 /*
