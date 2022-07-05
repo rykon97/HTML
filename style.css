@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-family: "proxima-nova";
 }
 
 * {
@@ -38,7 +39,6 @@ header {
     font-size: 36px;
     font-weight: 700;
     line-height: 48.24px;
-    font-family: "proxima-nova";
     justify-content:center;
     display: flex;
     align-items: center;
@@ -79,7 +79,6 @@ header {
 }
 .features h3
 {
-    font-family: "proxima-nova";
     font-size: 20px;
     color: #001355;
     margin-top: 0;
@@ -161,6 +160,59 @@ input[type="text"]:focus {
 .main-links {
     padding: 50px 100px;
 }
+
+.reviews {
+    background-color: #F8F8FB;
+    padding: 56px 0 80px 0;
+    margin-top: 100px;
+}
+.reviews__heading {
+    text-align: center;
+    color: #001355;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 32px;
+
+}
+.reviews__container {
+    max-width: 1168px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__name {
+    color: #001355;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.reviews__head {
+    display: flex;
+    align-items: center;
+    
+}
+.reviews__location {
+display: inline-flex;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color: #9B9BAC;
+}
+.reviews__review {
+    padding: 24px 28px 24px 32px;
+    background-color: #ffffff;
+    width: 316px;
+}
+.reviews__name-location {
+    margin-left:  8px;
+
+}
+.reviews__location img {
+    margin-right: 4px;
+}
+
 
 /*
     border - рамка
