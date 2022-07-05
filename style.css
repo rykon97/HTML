@@ -130,31 +130,36 @@ input[type="text"]:focus {
     padding: 80px 0;
 }
 
-.link {
-    margin: 50px auto;
-    display: inline-flex;
-    flex-direction: column;
-    transition-duration: 0.5s;
-}
-
-.link:hover .underscore {
-    width: 100%;
-}
-
-.link a {
+.main-link {
     text-decoration: none;
+    position: relative;
 }
 
-.link .underscore {
-    margin-top: -3px;
+.main-link::after {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
     width: 0;
     transition-duration: 0.5s;
-    border-top: 3px solid black;
+    border-top: 3px solid red;
 }
 
-.link .underscore2 {
+.main-link:hover::after {
+    width: 100%;
+}
+
+.main-link::before {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
     width: 100%;
     border-top: 3px solid gainsboro;
+}
+
+.main-links {
+    padding: 50px 100px;
 }
 
 /*
