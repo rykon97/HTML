@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-size: 16px;
     font-family: "proxima-nova";
 }
 
@@ -36,7 +37,6 @@ header {
     background: url('./img/banner.png') no-repeat center center;
     background-size: cover;
     color: white;
-    font-size: 36px;
     font-weight: 700;
     line-height: 48.24px;
     justify-content:center;
@@ -46,8 +46,10 @@ header {
     flex-direction: column;
 }
 
+
 .hero span {
     text-align: center;
+    font-size: 36px;
 }
 
 .features {
