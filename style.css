@@ -4,6 +4,8 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: "proxima-nova";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -215,10 +217,91 @@ input[type="text"]:focus {
     margin-right: 4px;
 }
 
+.subjects {
+    padding: 50px 0;
+}
+
+.wrapper {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+.subjects .example {
+    position: relative;
+    height: 350px;
+    width: 277px;
+    background-image: url('./img/english.png');
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+.subjects .example .overflow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 100, 249, 0.8);
+    top: calc(100% - 48px);
+    right: 0;
+    transition-duration: 0.4s;
+    color: white;
+    text-align: center;
+    
+}
+.example:hover .overflow {
+    top: 0;
+}
+
+.example:hover .subjects__container {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.subjects__container {
+    position: absolute;
+    top: 0;
+    transform: translateY(0);
+    transition-duration: 0.4s;
+}
+
+
+.subjects .example .overflow .title {
+    padding: 14px 0;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+
+.button {
+    color: rgba(57, 100, 249, 1);
+    text-decoration: none;
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.links__button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text {
+    line-height: 24px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.example:hover .button {
+    opacity: 1;
+}
+.example:hover .text {
+    opacity: 1;
+}
 
 /*
     border - рамка
-
     border-width - Размер рамки
     border-style - стиль рамки (solid - сплошная рамка, dotted - рамка из точек, dashed - рамка из линий)
     border-color - цвет
