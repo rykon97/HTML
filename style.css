@@ -203,10 +203,6 @@ input[type="text"]:focus {
     line-height: 24px;
     color: #9B9BAC;
 }
-.reviews__location img {
-    width: 19px;
-    height: 19px;
-}
 
 .reviews__review {
     padding: 24px 28px 24px 32px;
@@ -221,9 +217,16 @@ input[type="text"]:focus {
     margin-left:  8px;
 
 }
-.reviews__location img {
+
+.reviews__location::before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    background-image: url('./img/Earth.png');
+    background-repeat: no-repeat;
     margin-right: 4px;
 }
+
 .reviews__text {
     font-family: "Open Sans";
     font-weight: 400;
@@ -309,14 +312,6 @@ input[type="text"]:focus {
 }
 .example:hover .text {
     opacity: 1;
-}
-.links:hover {
-    transform: rotate(15deg);
-
-}
-.feature:hover {
-    transform: translateX(84%);
-    transition-duration: 1s;
 }
 /*
     border - рамка
