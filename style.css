@@ -63,8 +63,29 @@ header {
     padding: 46px 32px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
     background-color: white;
-
+    position: relative;
 }
+.features .feature::before {
+    position: absolute;
+    width: 84%;
+    content: '';
+    height: 100%;
+    top: 0;
+    left: -84%;
+}
+
+.features .feature:nth-child(3) {
+    z-index: 1;
+}
+
+.features .feature:nth-child(2) {
+    z-index: 2;
+}
+
+.features .feature:nth-child(1) {
+    z-index: 3;
+}
+
 .features hr {
     width: 80px;
     border-style: solid;
