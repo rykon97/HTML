@@ -7,12 +7,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
 header {
     width: 1168px;
     margin: 18px auto;
@@ -20,7 +18,6 @@ header {
     flex-direction: row;
     align-items: center;
 }
-
 .links a {
     color: #001355;
     text-decoration: none;
@@ -28,11 +25,9 @@ header {
     font-size: 15px;
     margin-right: 24px;
 }
-
 .links {
     margin-left: 48px;
 }
-
 .hero {
     width: 100%;
     height: 500px;
@@ -47,20 +42,16 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-
-
 .hero span {
     text-align: center;
     font-size: 36px;
 }
-
 .features {
     width: 1168px;
     margin: 0 auto;
     display: flex;
     margin-top: -32px;
 }
-
 .features .feature {
     text-align: center;
     width: 376px;
@@ -74,7 +65,6 @@ header {
     background-color: white;
 
 }
-
 .features hr {
     width: 80px;
     border-style: solid;
@@ -89,14 +79,12 @@ header {
     margin-bottom: 14px;
     line-height: 28px;
 }
-
 .search {
     background: #ffffff;
     padding: 8px;
     border-radius: 10px;
     margin-top: 24px;
 }
-
 input[type="submit"] {
     background: #3964F9;
     border: none;
@@ -104,17 +92,14 @@ input[type="submit"] {
     padding: 12px 65px;
     border-radius: 4px;
 }
-
 input[type="submit"]:hover {
     background: blue;
     cursor: pointer;
 }
-
 form {
     display: flex;
     align-items: center;
 }
-
 input[type="text"] {
     border: none;
     width: 250px;
@@ -122,22 +107,18 @@ input[type="text"] {
     margin-left: 40px;
     padding-left: 10px;
 }
-
 input[type="text"]:focus {
     outline: none;
 }
-
 .pattern {
     background-image: url(./img/pattern.svg);
     background-size: 68px;
     padding: 80px 0;
 }
-
 .main-link {
     text-decoration: none;
     position: relative;
 }
-
 .main-link::after {
     content: '';
     bottom: -2px;
@@ -147,11 +128,9 @@ input[type="text"]:focus {
     transition-duration: 0.5s;
     border-top: 3px solid red;
 }
-
 .main-link:hover::after {
     width: 100%;
 }
-
 .main-link::before {
     content: '';
     bottom: -2px;
@@ -160,11 +139,9 @@ input[type="text"]:focus {
     width: 100%;
     border-top: 3px solid gainsboro;
 }
-
 .main-links {
     padding: 50px 100px;
 }
-
 .reviews {
     background-color: #F8F8FB;
     padding: 56px 0 80px 0;
@@ -184,7 +161,6 @@ input[type="text"]:focus {
     display: flex;
     justify-content: space-between;
 }
-
 .reviews__name {
     color: #001355;
     line-height: 20px;
@@ -208,6 +184,9 @@ input[type="text"]:focus {
     padding: 24px 28px 24px 32px;
     background-color: #ffffff;
     width: 316px;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 4px ;
 }
 .reviews__name-location {
     margin-left:  8px;
@@ -216,16 +195,21 @@ input[type="text"]:focus {
 .reviews__location img {
     margin-right: 4px;
 }
-
+.reviews__text {
+    font-family: "Opan Sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #9B9BAC;
+    width: 300px;
+}
 .subjects {
     padding: 50px 0;
 }
-
 .wrapper {
     width: 1168px;
     margin: 0 auto;
 }
-
 .subjects .example {
     position: relative;
     height: 350px;
@@ -234,8 +218,6 @@ input[type="text"]:focus {
     overflow: hidden;
     border-radius: 12px;
 }
-
-
 .subjects .example .overflow {
     position: absolute;
     width: 100%;
@@ -251,27 +233,21 @@ input[type="text"]:focus {
 .example:hover .overflow {
     top: 0;
 }
-
 .example:hover .subjects__container {
     top: 50%;
     transform: translateY(-50%);
 }
-
 .subjects__container {
     position: absolute;
     top: 0;
     transform: translateY(0);
     transition-duration: 0.4s;
 }
-
-
 .subjects .example .overflow .title {
     padding: 14px 0;
     font-weight: 700;
     transition: all 0.4s;
 }
-
-
 .button {
     color: rgba(57, 100, 249, 1);
     text-decoration: none;
@@ -299,7 +275,14 @@ input[type="text"]:focus {
 .example:hover .text {
     opacity: 1;
 }
+.links:hover {
+    transform: rotate(15deg);
 
+}
+.feature:hover {
+    transform: translateX(84%);
+    transition-duration: 1s;
+}
 /*
     border - рамка
     border-width - Размер рамки
