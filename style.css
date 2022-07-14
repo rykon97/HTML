@@ -313,6 +313,40 @@ input[type="text"]:focus {
 .example:hover .text {
     opacity: 1;
 }
+.statistics {
+    background-image: url('./img/pattern.svg');
+    padding: 24px 0;
+    background-size: 68px;
+   
+    
+}
+.statistics .wrapper {
+    display: flex;
+}
+.statistics__container {
+    border-left: 2px solid #ffffff;  
+    height: 165px;  
+    width: 354px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.statistics__container:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+.statistics__counter {
+    font-size: 80px;
+    line-height: 97px;
+}
+.statistics__about {
+    font-size: 16px;
+    line-height: 20px;
+    
+}
 /*
     border - рамка
     border-width - Размер рамки
