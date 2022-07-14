@@ -166,27 +166,35 @@ input[type="text"]:focus {
     line-height: 20px;
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 4px;
 }
 .reviews__head {
     display: flex;
     align-items: center;
-    
+    margin-bottom: 12px;
 }
 .reviews__location {
     display: inline-flex;
+    align-items: center;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     color: #9B9BAC;
 }
+.reviews__location img {
+    width: 19px;
+    height: 19px;
+}
+
 .reviews__review {
     padding: 24px 28px 24px 32px;
     background-color: #ffffff;
     width: 316px;
     border: 1px solid #ececec;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.04);
-    border-radius: 4px ;
+    border-radius: 4px;
+    position: relative;
 }
 .reviews__name-location {
     margin-left:  8px;
@@ -196,13 +204,19 @@ input[type="text"]:focus {
     margin-right: 4px;
 }
 .reviews__text {
-    font-family: "Opan Sans";
+    font-family: "Open Sans";
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #9B9BAC;
-    width: 300px;
+    margin-bottom: 36px;
 }
+.reviews__stars {
+    position: absolute;
+    bottom: 24px;
+    left: 32px;
+}
+
 .subjects {
     padding: 50px 0;
 }
