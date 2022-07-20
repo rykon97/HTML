@@ -1,0 +1,17 @@
+header {
+    width: 1168px;
+    margin: 18px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.links a {
+    color: #001355;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-right: 24px;
+}
+.links {
+    margin-left: 48px;
+}

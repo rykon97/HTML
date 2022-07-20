@@ -11,23 +11,7 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
-    width: 1168px;
-    margin: 18px auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.links a {
-    color: #001355;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    margin-right: 24px;
-}
-.links {
-    margin-left: 48px;
-}
+
 .hero {
     width: 100%;
     height: 500px;
@@ -302,6 +286,11 @@ header {
 .statistics__container:first-child {
     border-left: none;
     padding-left: 0;
+    width: 374px;
+}
+.statistics__container:nth-child(2) {
+    padding-right: 20px;
+    width: 376px;
 }
 .statistics__counter {
     font-size: 80px;
@@ -385,6 +374,7 @@ header {
     }
     .statistics__container:first-child {
         border-top: none;
+    
     }
 }
 
