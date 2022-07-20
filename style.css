@@ -235,7 +235,7 @@ input[type="text"]:focus {
     color: #9B9BAC;
     margin-bottom: 36px;
 }
-.reviews__stars {
+.couteiner__stars {
     position: absolute;
     bottom: 24px;
     left: 32px;
@@ -246,9 +246,6 @@ input[type="text"]:focus {
     max-width: 1168px;
     margin: 0 auto 0 auto;
     justify-content: space-between;
-}
-.container__subject .wrapper{
-    width:unset;
 }
 .subjects {
     padding: 50px 0;
@@ -326,8 +323,6 @@ input[type="text"]:focus {
     background-image: url('./img/pattern.svg');
     padding: 24px 0;
     background-size: 68px;
-   
-    
 }
 .statistics .wrapper {
     display: flex;
@@ -354,7 +349,6 @@ input[type="text"]:focus {
 .statistics__about {
     font-size: 16px;
     line-height: 20px;
-    
 }
 .reviews__stars {
     background-image: url(./img/star.png);
@@ -365,6 +359,11 @@ input[type="text"]:focus {
 }
 .couteiner__stars {
     display: flex;
+}
+
+.subjects .wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 /*
     border - рамка
