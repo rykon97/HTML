@@ -31,7 +31,7 @@ header {
 .hero {
     width: 100%;
     height: 500px;
-    background: url('./img/banner.png') no-repeat center center;
+    background: url('../img/banner.png') no-repeat center center;
     background-size: cover;
     color: white;
     font-weight: 700;
@@ -65,27 +65,22 @@ header {
     background-color: white;
     position: relative;
 }
-
 .features .feature:nth-child(3) {
     z-index: 1;
 }
-
 .features .feature:nth-child(2) {
     z-index: 2;
 }
-
 .features .feature:nth-child(1) {
     z-index: 3;
 }
-
 .features hr {
     width: 80px;
     border-style: solid;
     border-color: blue;
     margin: 0 auto 14px auto;
 }
-.features h3
-{
+.features h3 {
     font-size: 20px;
     color: #001355;
     margin-top: 0;
@@ -98,33 +93,8 @@ header {
     border-radius: 10px;
     margin-top: 24px;
 }
-input[type="submit"] {
-    background: #3964F9;
-    border: none;
-    color: #ffffff;
-    padding: 12px 65px;
-    border-radius: 4px;
-}
-input[type="submit"]:hover {
-    background: blue;
-    cursor: pointer;
-}
-form {
-    display: flex;
-    align-items: center;
-}
-input[type="text"] {
-    border: none;
-    width: 250px;
-    height: 24px;
-    margin-left: 40px;
-    padding-left: 10px;
-}
-input[type="text"]:focus {
-    outline: none;
-}
 .pattern {
-    background-image: url(./img/pattern.svg);
+    background-image: url(../img/pattern.svg);
     background-size: 68px;
     padding: 80px 0;
 }
@@ -195,7 +165,6 @@ input[type="text"]:focus {
     line-height: 24px;
     color: #9B9BAC;
 }
-
 .reviews__review {
     padding: 24px 28px 24px 32px;
     background-color: #ffffff;
@@ -207,18 +176,15 @@ input[type="text"]:focus {
 }
 .reviews__name-location {
     margin-left:  8px;
-
 }
-
 .reviews__location::before {
     content: '';
     width: 19px;
     height: 19px;
-    background-image: url('./img/Earth.png');
+    background-image: url('../img/Earth.png');
     background-repeat: no-repeat;
     margin-right: 4px;
 }
-
 .reviews__text {
     font-family: "Open Sans";
     font-weight: 400;
@@ -232,7 +198,6 @@ input[type="text"]:focus {
     bottom: 24px;
     left: 32px;
 }
-
 .container__subject {
     display: flex;
     max-width: 1168px;
@@ -250,7 +215,7 @@ input[type="text"]:focus {
     position: relative;
     height: 350px;
     width: 277px;
-    background-image: url('./img/english.png');
+    background-image: url('../img/english.png');
     overflow: hidden;
     border-radius: 12px;
 }
@@ -316,7 +281,7 @@ input[type="text"]:focus {
     opacity: 1;
 }
 .statistics {
-    background-image: url('./img/pattern.svg');
+    background-image: url('../img/pattern.svg');
     padding: 24px 0;
     background-size: 68px;
 }
@@ -347,7 +312,7 @@ input[type="text"]:focus {
     line-height: 20px;
 }
 .reviews__stars {
-    background-image: url(./img/star.png);
+    background-image: url(../img/star.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 20px;
@@ -361,33 +326,27 @@ input[type="text"]:focus {
     display: flex;
     justify-content: space-between;
 }
-
 .example:nth-child(2) {
-    background-image: url('./img/maths.png');
+    background-image: url('../img/maths.png');
 }
-
 .example:nth-child(3) {
-    background-image: url('./img/IT.png');
+    background-image: url('../img/IT.png');
 }
-
 .example:nth-child(4) {
-    background-image: url('./img/chemistry.png');
+    background-image: url('../img/chemistry.png');
 }
 
 @media screen and (max-width: 768px) {
     .links {
         display: none;
     }
-
     .wrapper {
         width: 100%;
     }
-
     header {
         width: calc(100% - 40px);
         padding: 0 20px;
     }
-
     .features {
         flex-direction: column;
         margin: 0;
@@ -395,17 +354,14 @@ input[type="text"]:focus {
         margin-top: 40px;
         width: 100%;
     }
-
     .features .feature {
         margin-right: 0;
         width: 60%;
     }
-
     .subjects .wrapper {
         flex-direction: column;
         align-items: center;
     }
-
     .subjects .example {
         margin-top: 30px;
     }
@@ -430,8 +386,6 @@ input[type="text"]:focus {
     .statistics__container:first-child {
         border-top: none;
     }
-    
-    
 }
 
 /*
