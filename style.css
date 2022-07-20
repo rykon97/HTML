@@ -282,10 +282,14 @@ input[type="text"]:focus {
     transform: translateY(-50%);
 }
 .subjects__container {
+    width: 100%;
     position: absolute;
     top: 0;
     transform: translateY(0);
     transition-duration: 0.4s;
+}
+.subjects__container .text {
+    padding: 0 20px;
 }
 .subjects .example .overflow .title {
     padding: 14px 0;
@@ -364,6 +368,18 @@ input[type="text"]:focus {
 .subjects .wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.example:nth-child(2) {
+    background-image: url('./img/maths.png');
+}
+
+.example:nth-child(3) {
+    background-image: url('./img/IT.png');
+}
+
+.example:nth-child(4) {
+    background-image: url('./img/chemistry.png');
 }
 /*
     border - рамка
