@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+    .links {
+        display: none;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    header {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+    .features {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .features .feature {
+        margin-right: 0;
+        width: 60%;
+    }
+    .subjects .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .subjects .example {
+        margin-top: 30px;
+    }
+    .reviews__container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .reviews__review {
+        margin-top: 30px;
+    }
+    .statistics .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .statistics__container {
+        border-top: 2px solid #ffffff;
+        border-left: none;
+        text-align: center;
+        padding-left: 0;
+    }
+    .statistics__container:first-child {
+        border-top: none;
+    
+    }
+}
