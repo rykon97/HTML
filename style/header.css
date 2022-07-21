@@ -4,6 +4,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 .links a {
     color: #001355;
@@ -12,23 +13,20 @@ header {
     font-size: 15px;
     margin-right: 24px;
 }
-.links {
-    margin-left: 48px;
+.links a:last-child {
+    margin-right: 0;
 }
 .profile__logo {
-    width: 101px;
-    height: 24px;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 600;
     line-height: 24px;
-    text-align: right;
     display: flex;
-    margin-left: 243px;
     color: #001355;
 }
 .profile__logo a {
     margin-right: 8px;
+    color: #001355;
     text-decoration: none;
 }
 .profile__logo img {
