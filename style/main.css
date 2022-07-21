@@ -82,33 +82,6 @@ body {
     background-size: 68px;
     padding: 80px 0;
 }
-.main-link {
-    text-decoration: none;
-    position: relative;
-}
-.main-link::after {
-    content: '';
-    bottom: -2px;
-    left: 0;
-    position: absolute;
-    width: 0;
-    transition-duration: 0.5s;
-    border-top: 3px solid red;
-}
-.main-link:hover::after {
-    width: 100%;
-}
-.main-link::before {
-    content: '';
-    bottom: -2px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    border-top: 3px solid gainsboro;
-}
-.main-links {
-    padding: 50px 100px;
-}
 .reviews {
     background-color: #F8F8FB;
     padding: 56px 0 80px 0;
