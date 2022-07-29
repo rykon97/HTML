@@ -1,0 +1,9 @@
+.example .item {
+    height: 50px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.example .item:nth-child(3n) {
+    background-color: blue;
+}
