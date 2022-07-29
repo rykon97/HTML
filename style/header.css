@@ -25,11 +25,17 @@ header {
     color: #001355;
 }
 .profile__logo a {
-    margin-right: 8px;
     color: #001355;
     text-decoration: none;
+    position: relative;
+    padding-right: 34px;
 }
-.profile__logo img {
+.profile__logo a:after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 0;
+    background-image: url('../img/profile_logo.png');
     width: 24px;
     height: 24px;
 }

@@ -35,6 +35,21 @@ input:focus {
     align-items: center;
     padding-right: 20px;
     margin-right: 10px;
+    position: relative;
+}
+
+.filters__form input {
+    margin-left: 30px;
+}
+
+.filters__form label:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 0;
+    background-image: url('../img/menu_icon.png');
+    width: 24px;
+    height: 24px;
 }
 
 .filters__form label:first-child {
