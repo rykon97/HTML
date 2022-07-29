@@ -1,0 +1,39 @@
+$dark-blue: #001355
+    
+header
+    width: 1168px
+    margin: 18px auto
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+
+.links a 
+    color: $dark-blue
+    text-decoration: none
+    font-family: 'Open Sans', sans-serif
+    font-size: 15px
+    margin-right: 24px
+    &:last-child 
+        margin-right: 0
+
+.profile__logo 
+    font-family: "Open Sans"
+    font-size: 15px
+    font-weight: 600
+    line-height: 24px
+    display: flex
+    color: $dark-blue
+    a 
+        color: #001355
+        text-decoration: none
+        position: relative
+        padding-right: 34px
+        &:after 
+            content: ''
+            position: absolute
+            top: calc(50% - 12px)
+            right: 0
+            background-image: url('../img/profile_logo.png')
+            width: 24px
+            height: 24px
